@@ -1,5 +1,4 @@
 window.addEventListener('load', (event) => {
-  const weatherDiv = document.querySelector('#weatherData')
   const spinner = document.getElementById('spinner')
 
   // Shows the loading spinner during HTTP fetch
