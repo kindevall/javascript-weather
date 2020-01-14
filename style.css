@@ -43,6 +43,12 @@ body {
     grid-column: 1 / 4;
     margin-top: 145px;
     align-self: center;
+    
+    -webkit-animation: fadein 9s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 9s; /* Firefox < 16 */
+    -ms-animation: fadein 9s; /* Internet Explorer */
+    -o-animation: fadein 9s; /* Opera < 12.1 */
+    animation: fadein 9s;
 }
 
 #city {
@@ -50,12 +56,6 @@ body {
     font-size: 3.5em;
     color: #ffffff;
     text-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
-
-    -webkit-animation: fadein 8s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 8s; /* Firefox < 16 */
-    -ms-animation: fadein 8s; /* Internet Explorer */
-    -o-animation: fadein 8s; /* Opera < 12.1 */
-    animation: fadein 8s;
 }
 
 #icon {
@@ -70,13 +70,6 @@ body {
     font-weight: lighter;
     color: #f3f3f3;
     text-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
-
-
-    -webkit-animation: fadein 8s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 8s; /* Firefox < 16 */
-    -ms-animation: fadein 8s; /* Internet Explorer */
-    -o-animation: fadein 8s; /* Opera < 12.1 */
-    animation: fadein 8s;
 }
 
 #footer{
